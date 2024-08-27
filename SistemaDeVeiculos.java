@@ -1,4 +1,5 @@
 import java.util.Scanner;
+package com.company;
 
 public class SistemaDeVeiculos {
     public static void main(String[] args) {

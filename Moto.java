@@ -1,3 +1,4 @@
+package com.company;
 public class Moto extends Veiculo {
     protected String nome;
     protected String tipoFreio;

@@ -9,6 +9,10 @@ public class Veiculo {
         this.TIPO = tipo;
     }
 
+    public final void descrever() {
+        System.out.println("Veículo do tipo " + TIPO + ", placa " + placa + ", fabricado em " + anoFabricacao + ".");
+    }
+
     public String getPlaca() {
         return placa;
     }
@@ -27,10 +31,5 @@ public class Veiculo {
 
     public String getTIPO() {
         return TIPO;
-    }
-
-    @Override
-    public String toString() {
-        return "Veículo [Placa: " + placa + ", Ano de Fabricação: " + anoFabricacao + ", Tipo: " + TIPO + "]";
     }
 }

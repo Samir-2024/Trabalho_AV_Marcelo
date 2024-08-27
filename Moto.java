@@ -3,7 +3,7 @@ public class Moto extends Veiculo {
     protected String tipoFreio;
 
     public Moto(String nome, String placa, int anoFabricacao, String tipoFreio) {
-        super(placa, anoFabricacao, "Moto"); // Chamada ao construtor da classe base
+        super(placa, anoFabricacao, "Moto");
         this.nome = nome;
         this.tipoFreio = tipoFreio;
     }

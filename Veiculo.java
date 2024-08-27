@@ -1,3 +1,4 @@
+package com.company;
 public class Veiculo {
     protected String placa;
     protected int anoFabricacao;

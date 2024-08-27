@@ -3,11 +3,10 @@ public class Carro extends Veiculo {
     protected int numeroPortas;
 
     public Carro(String nome, String placa, int anoFabricacao, int numeroPortas) {
-        super(placa, anoFabricacao, "Carro"); // Chamada ao construtor da classe base
+        super(placa, anoFabricacao, "Carro");
         this.nome = nome;
         this.numeroPortas = numeroPortas;
     }
-
     public String getNome() {
         return nome;
     }

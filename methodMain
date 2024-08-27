@@ -1,0 +1,33 @@
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Informe a placa do carro:");
+        String placaCarro = scanner.nextLine();
+        System.out.println("Informe o ano de fabricação do carro:");
+        int anoCarro = scanner.nextInt();
+        System.out.println("Informe o número de portas do carro:");
+        int numeroPortas = scanner.nextInt();
+        scanner.nextLine(); 
+
+        Carro carro = new Carro(placaCarro, anoCarro, numeroPortas);
+
+        System.out.println("Informe a placa da moto:");
+        String placaMoto = scanner.nextLine();
+        System.out.println("Informe o ano de fabricação da moto:");
+        int anoMoto = scanner.nextInt();
+        scanner.nextLine(); 
+        System.out.println("Informe o tipo de freio da moto:");
+        String tipoFreio = scanner.nextLine();
+
+        Moto moto = new Moto(placaMoto, anoMoto, tipoFreio);
+
+        System.out.println("Informações do Carro:");
+        System.out.println(carro.toString());
+
+        System.out.println("Informações da Moto:");
+        System.out.println(moto.toString());
+
+        scanner.close();
+    }
+}

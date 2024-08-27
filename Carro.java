@@ -1,3 +1,4 @@
+package com.company;
 public class Carro extends Veiculo {
     protected String nome;
     protected int numeroPortas;

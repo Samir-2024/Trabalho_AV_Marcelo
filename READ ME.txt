@@ -1,3 +1,0 @@
-O método descrever() foi declarado como final na classe Veiculo, impedindo que ele seja sobrescrito nas classes Carro e Moto. Este método fornece uma descrição básica do veículo que não pode ser alterada pelas subclasses.
-
-No método exibirInformacoes, utilizamos o operador instanceof para verificar se o objeto é uma instância de Carro ou Moto. Com base na verificação, fazemos o casting adequado para exibir as informações específicas de cada tipo de veículo.
